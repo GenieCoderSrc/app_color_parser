@@ -1,5 +1,4 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'color_extensions/hex_color_extension.dart';
+export 'color_parser/color_json_helper.dart';
+export 'color_parser/hex_color_json_helper.dart';
+export 'color_parser/i_color_json_helper.dart';

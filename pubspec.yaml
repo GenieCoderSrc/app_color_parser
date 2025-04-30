@@ -1,7 +1,9 @@
 name: app_color_parser
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A lightweight Flutter package for converting between Color, hex strings, and ARGB integers, with built-in JSON serialization support."
+version: 0.0.2
+homepage: https://github.com/GenieCoderSrc/app_color_parser
+repository: https://github.com/GenieCoderSrc/app_color_parser
+issue_tracker: https://github.com/GenieCoderSrc/app_color_parser/issues
 
 environment:
   sdk: ^3.7.2
@@ -22,6 +24,8 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
+example:
+  path: example
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
