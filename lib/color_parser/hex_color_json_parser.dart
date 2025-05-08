@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'i_color_json_helper.dart';
 
 /// Helper for Color <-> Hex String JSON serialization.
-class HexColorJsonHelper  {
+class HexColorJsonParser  {
 
   static String? toJson(Color? color) {
     return color?.toHex(includeAlpha: true);
