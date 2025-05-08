@@ -14,8 +14,10 @@ extension HexColorExtension on Color {
   ///
   /// Accepts hex strings like `0xAARRGGBB`, `0xRRGGBB`, `AARRGGBB`, or `RRGGBB`.
   static Color fromHex(String hexString) {
-    String hex =
-        hexString.toUpperCase().replaceAll('0X', '').replaceAll('#', '');
+    String hex = hexString
+        .toUpperCase()
+        .replaceAll('0X', '')
+        .replaceAll('#', '');
 
     if (hex.length == 6) {
       hex = 'FF$hex'; // Default full opacity
