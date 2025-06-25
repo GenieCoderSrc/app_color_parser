@@ -67,4 +67,3 @@ MIT License. See [LICENSE](LICENSE) file for details.
 ## Contributions
 
 Contributions are welcome! Please open an issue or submit a pull request.
-

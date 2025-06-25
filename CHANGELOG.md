@@ -11,4 +11,3 @@ All notable changes to this project will be documented in this file.
 - Added `ColorJsonHelper` for serializing/deserializing `Color` as ARGB integer.
 - Added `HexColorJsonHelper` for serializing/deserializing `Color` as hex string.
 - Defined `IColorJsonHelper` interface for custom JSON color serialization strategies.
-
