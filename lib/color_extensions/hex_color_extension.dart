@@ -2,15 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flex_color_picker/flex_color_picker.dart';
 
 extension HexColorExtension on Color {
-  /// Converts the [Color] to a hex string.
+  /// Returns the color as a hex string in Flutter's standard format.
   ///
-  /// If [includeAlpha] is `true`, includes the alpha channel (AARRGGBB).
-  /// Otherwise, returns only the RGB part (RRGGBB).
+  /// - With `includeAlpha = true`: returns `'0xffAARRGGBB'`.
+  /// - With `includeAlpha = false`: returns `'0xffRRGGBB'` (assumes full opacity).
   String toHex({bool includeAlpha = false}) {
-    final colorCode = ColorTools.colorCode(this); // returns AARRGGBB
-
-    final hex = includeAlpha ? colorCode : colorCode.substring(2);
-    return '0x$hex';
+    final colorCode = ColorTools.colorCode(this); // → AARRGGBB
+    final hex = includeAlpha ? colorCode : colorCode.substring(2); // remove AA
+    return '0xff$hex'.toLowerCase(); // Flutter prefers lowercase `0xff`
   }
 
   /// Creates a [Color] from a hex string.

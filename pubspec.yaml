@@ -1,6 +1,6 @@
 name: app_color_parser
 description: "A lightweight Flutter package for converting between Color, hex strings, and ARGB integers, with built-in JSON serialization support."
-version: 0.0.5
+version: 0.0.5+1
 homepage: https://github.com/GenieCoderSrc/app_color_parser
 repository: https://github.com/GenieCoderSrc/app_color_parser
 issue_tracker: https://github.com/GenieCoderSrc/app_color_parser/issues

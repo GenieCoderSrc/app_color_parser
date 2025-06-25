@@ -14,7 +14,7 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  app_color_parser: ^0.0.4
+  app_color_parser: ^0.0.5+1
 ```
 
 ## Usage
@@ -67,4 +67,3 @@ MIT License. See [LICENSE](LICENSE) file for details.
 ## Contributions
 
 Contributions are welcome! Please open an issue or submit a pull request.
-
