@@ -45,11 +45,7 @@ class MyApp extends StatelessWidget {
               Text('Hex JSON: $hexJson'),
               Text('From Hex JSON: $fromHexJson'),
               const SizedBox(height: 20),
-              Container(
-                width: 100,
-                height: 100,
-                color: fromHexJson,
-              )
+              Container(width: 100, height: 100, color: fromHexJson),
             ],
           ),
         ),
