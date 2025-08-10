@@ -14,7 +14,7 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  app_color_parser: ^0.0.5+1
+  app_color_parser: latest_version
 ```
 
 ## Usage
