@@ -1,8 +1,27 @@
 # Changelog
 
+## 0.0.8
+
+### Jun 15, 2026
+
+### ✨ Updated
+- Updated `flex_color_picker: ^3.8.0`
+
+
+
 All notable changes to this project will be documented in this file.
 
+## 0.0.7
+
+### Jun 15, 2026
+
+### ✨ Updated
+
+- Updated `flex_color_picker` to ^3.8.0
+- Maintenance update for dependency compatibility.
+
 ## 0.0.6
+
 
 ### Aug 22, 2025
 
