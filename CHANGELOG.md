@@ -2,19 +2,6 @@
 
 All notable changes to this project will be documented in this file.
 
-
-
-
-## 0.0.8
-
-### Jun 15, 2026
-
-### ✨ Updated
-- Updated `flex_color_picker: ^3.8.0`
-
-
-
-
 ## 0.0.7
 
 ### Jun 15, 2026
@@ -25,7 +12,6 @@ All notable changes to this project will be documented in this file.
 - Maintenance update for dependency compatibility.
 
 ## 0.0.6
-
 
 ### Aug 22, 2025
 
@@ -41,7 +27,8 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - `toHex()` now returns color strings in Flutter's preferred format using `'0xff$hex'`.
-- Integrated `ColorTools.colorCode(Color)` from `flex_color_picker` to produce consistent 8-digit `AARRGGBB` format
+- Integrated `ColorTools.colorCode(Color)` from `flex_color_picker` to produce consistent 8-digit
+  `AARRGGBB` format
   before prefixing.
 - Ensures lowercase `0xff` prefix, matching how Flutter represents colors in source code.
 
@@ -51,9 +38,11 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-- Refactored ColorHexExtension.toHex({bool includeAlpha}) to delegate hex formatting to ColorTools.colorCode(Color) from
+- Refactored ColorHexExtension.toHex({bool includeAlpha}) to delegate hex formatting to
+  ColorTools.colorCode(Color) from
   the flex_color_picker package.
-- Improved clarity and re-usability by stripping the alpha channel conditionally instead of manually handling
+- Improved clarity and re-usability by stripping the alpha channel conditionally instead of manually
+  handling
   Color.value.
 
 ## 0.0.4
