@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.8
+
+### Sep 26, 2026
+
+### ✨ Updated
+
+- Updated `flex_color_picker` to ^4.0.0
+
 ## 0.0.7
 
 ### Jun 15, 2026
