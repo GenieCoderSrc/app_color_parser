@@ -5,6 +5,7 @@ homepage: https://github.com/GenieCoderSrc/app_color_parser
 repository: https://github.com/GenieCoderSrc/app_color_parser
 issue_tracker: https://github.com/GenieCoderSrc/app_color_parser/issues
 
+
 environment:
   sdk: ^3.9.0
   flutter: ">=3.0.0"
