@@ -13,6 +13,8 @@
 Add the dependency to your `pubspec.yaml`:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   app_color_parser: latest_version
 ```
